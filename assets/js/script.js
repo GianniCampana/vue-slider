@@ -5,6 +5,7 @@ el: '#app',
 data:{
 
     contatoreImg:0,
+    /* time: setInterval(nextImg,3000), */
 
     immagini:[
         'assets/img/download1.jpg' ,
@@ -23,12 +24,18 @@ nextImg(){
         this.contatoreImg = 0
     }
 },
+
 prevImg(){
     this.contatoreImg--
     if(this.contatoreImg < 0){
         this.contatoreImg = this.immagini.length -1
     }
+},
+time(){
+    setInterval(this.nextImg,3000)
 }
+
+
 
 }
 

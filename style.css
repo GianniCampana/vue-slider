@@ -57,3 +57,22 @@
 .active{
     color: blue;
 }
+.intervallo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1000px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 3%;
+    left: 43%;
+}
+.fa-circle-notch{
+    margin-top: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
